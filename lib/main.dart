@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'screens/AnimatedButton.dart';
+import 'package:simpleanimations/screens/AnimatedButtonScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedButton(),
+      home: AnimatedButtonScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
